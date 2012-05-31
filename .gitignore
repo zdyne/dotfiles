@@ -1,0 +1,8 @@
+
+*.elc
+emacs/ac-comphist.dat
+
+
+emacs/url/cookies
+
+emacs/tramp

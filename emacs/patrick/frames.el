@@ -1,0 +1,13 @@
+(if (eq system-type 'darwin)
+    (defconst laptop-frame-alist '((top . 0)
+				   (left . 414)
+				   (width . 166)
+				   (height . 70)))
+  (defconst laptop-frame-alist '((top . 0)
+				 (left . 500)
+				 (width . 80)
+				 (height . 51))))
+
+(setq initial-frame-alist laptop-frame-alist)
+(delete-other-windows)
+(split-window-horizontally)
